@@ -281,7 +281,7 @@ def translate(**kwargs):
             
         # 拼接结果
         if split_mode == "By Danbooru Tag":
-            result = ', '.join(translated_chunks)
+            result = '、'.join(translated_chunks)
         else:
             result = ' '.join(translated_chunks)
         
@@ -320,7 +320,7 @@ class RH_SeedXPro_Translator:
         "Indonesian": "id",
         "Norwegian": "no",
         "Turkish": "tr",
-        "English": "en",
+        "English": "en"，
         "Italian": "it",
         "Polish": "pl",
         "Ukrainian": "uk",
